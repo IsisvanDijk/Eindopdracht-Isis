@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn reisblog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="img/logo1.png" alt="logo" id="logo">
+        <section class="navigation">
+            <a href="#zwitserland">Zwitserland</a>
+            <a href="#jungfrau">Junfraujoch </a>
+            <a href="#aletsch">Aletschgletsjer</a>
+            <a href="#rheinfall">Rheinfall </a>
+            <a href="#contact">Contact </a>
+        </section>
+    </nav>
+
+    <header>
+        <h1>Over mij</h1>
+        <p> Stap hier in de wereld van ontdekking en avontuur, waar elke vakantie een nieuw hoofdstuk in mijn
+            reisverhaal is. Op deze website neem ik je mee op een reis van mijn favoriete activiteiten, waarvan
+            er drie uitgelicht zullen worden. Als liefhebber van de natuur ben was ik al gek op de bergen en dalen
+            in spanje maar die waren bij langerna niet zo mooi als de zwitserse alphen.</p>
+
+        <div>
+            <a> Zwitserland </a>
+            <a href="#contact"> Contact </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="location">
+            <h2 id="zwitserland">Zwitserland</h2>
+
+            <div class="places">
+                <article id="jungfrau">
+                    <img src="img/jungfau.png" alt="jungfraujoch-mountain" id="jungfraujoch-mountain">
+                    <h3>Junfraujoch </h3>
+                    <h4> &hearts; &hearts; &hearts; &hearts; &#9825;</h4>
+                    <p>Zelf ben ik er geweest toen ik 15 jaar was, ik herriner mij nog goed hoe mooi alles daar was en
+                        zeker nog de kou ondanks dat het hartje zomer was. Het is zeker een aanrader om heen te gaan het
+                        uitzicht en de ervaring zijn geen woorden voor om die te beschrijven.
+                        Jungfraujoch, ook wel bekend als de "Top of Europe," is een spectaculaire bergpas gelegen in de
+                        Zwitserse Alpen. Junfrau bied adembenemende panoramische uitzichten op de omliggende besneeuwde
+                        bergtoppen, gletsjers en diepe valleien. </p>
+                    <a>Meer informatie</a>
+                </article>
+
+                <article id="aletsch">
+                    <img src="img/glacier.png" alt="glacier" id="glacier">
+                    <h3>De Aletschgletsjer</h3>
+                    <h4> &hearts; &hearts; &hearts; &hearts; &hearts;</h4>
+                    <p>Deze zomer heb ik samen met mijn vriend de gletsjer bezocht, het was een prachtig uitzicht over
+                        alle bergen daar en het ijs van de gletsjer, helaas was er weinig eewige sneeuw te zien dus ik
+                        zou zeker aan raden voor de echte zomer er heen te gaan. Je gaat er wel met een kabelbaan omhoog
+                        dus dat is iets om rekening mee te houden als je hoogte vrees hebt. En als je daar wil hiken doe
+                        dat zeker niet zonder gids!
+                        De Aletschgletsjer, gelegen in de Zwitserse Alpen, is de grootste gletsjer van Europa en een
+                        indrukwekkend iets om te zien. </p>
+                    <a>Meer informatie</a>
+                </article>
+
+                <article id="rheinfall">
+                    <img src="img/Rheinfall.JPG" alt="rheinfall" id="rheinfall">
+                    <h3>De Rheinfall</h3>
+                    <h4> &hearts; &hearts; &hearts; &#9825; &#9825;</h4>
+                    <p> Ook de Rheinfall heb ik op mijn 15e al bezocht ze prachtige waterval, gelegen in Schaffhausen
+                        Zwitserland en is onderdeel van de Rijn. Iets wat de naam mogelijk al verklapte.
+                        Bezoekers kunnen de waterval vanaf verschillende uitkijkpunten bewonderen, zowel vanaf de oever
+                        als vanaf een boottocht die dichtbij de waterval komt. Een van de meest opvallende kenmerken van
+                        de Rheinfall is de rots in het midden van de waterval, bekend als de "Middenrots", die de stroom
+                        van de Rijn in tweeën splitst en bijdraagt aan het adembenemende uitzicht. </p>
+                    <a>Meer informatie</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="form">
+
+            <h2 id="contact"> Contactformulier</h2>
+
+            <p> Heb je vragen over de ervaringen of andere vragen, stel ze gerust!
+            </p>
+
+            <form>
+                <div class="row">
+                    <div class="column">
+                        <label for="firstName">Voornaam</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Voer voornaam in..." required>
+                    </div>
+
+                    <div class="column">
+                        <label for="lastName">Achternaam</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Voer achternaam in..." required>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Voer emailadres in..." required>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="city">Woonplaats</label>
+                        <input type="text" id="city" name="city" placeholder="Voer woonplaats in..." required>
+                    </div>
+
+                    <div class="column">
+                        <label for="birthdate">Datum</label>
+                        <input type="date" id="birthdate" name="birthdate" required>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <label for="subject">Onderwerp*</label>
+                    <select name="subject" id="subject">
+                        <option value="0">Junfraujoch</option>
+                        <option value="1">De Aletschgletsjer</option>
+                        <option value="2">Rheinfall</option>
+                        <option value="3">Anders</option>
+                    </select>
+                </div>
+
+                <div class="column">
+                    <label for="question">Bericht</label>
+                    <textarea id="question" name="question" required></textarea>
+                </div>
+
+                <div>
+                    <label for="newsletter">Inschrijven voor meldingen over nieuwe ervaringen?</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="yes" name="newsletter" value="newsletter">
+                    <label for="yes">Ja</label>
+
+                    <input type="radio" id="no" name="newsletter" value="newsletter">
+                    <label for="no">Nee</label>
+                </div>
+
+
+                <div class="row">
+                    <div class="keep-togheter">
+                        <input type="checkbox" id="terms" name="terms" value="terms" required>
+                        <label for="terms">Ik ga akkoord met de algemene voorwaarden.</label>
+                    </div>
+                </div>
+
+                <button type="submit">Verstuur form</button>
+            </form>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <img src="img/logo.png" class="logo" alt="logo" id="logo">
+            <a>Copyright Isis-aboutMe</a>
+
+            <div class="socials">
+                <img src="/eindopdracht/img/instagram.png" alt="instagram" id="instagram">
+                <img src="/eindopdracht/img/snapchat.png" alt="snapchat" id="snapchat">
+                <img src="/eindopdracht/img/facebook.png" alt="facebook" id="facebook">
+            </div>
+
+        </div>
+
+        <div>
+            <a> privacy verklaring</a>
+            <a> algemene voorwaarden</a>
+            <a> cookiebeleid</a>
+            <a href="#contact"> Contact</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
